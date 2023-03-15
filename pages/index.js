@@ -7,7 +7,7 @@ import Date from "../components/date";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
-  console.log("allPostsData (log from index.js): ", allPostsData);
+  // console.log("allPostsData (log from index.js): ", allPostsData);
   return {
     props: {
       allPostsData,
