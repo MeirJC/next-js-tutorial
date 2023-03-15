@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
-  // console.log("paths (log from [id].js): ", paths);
+  console.log("paths (log from [id].js): ", paths);
   return {
     paths,
     fallback: false,
@@ -47,7 +47,6 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
-        <html lang="en"></html>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
