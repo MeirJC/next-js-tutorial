@@ -19,6 +19,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
+        <html lang="en"></html>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>

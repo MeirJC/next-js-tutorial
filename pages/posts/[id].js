@@ -47,6 +47,7 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <html lang="en"></html>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
