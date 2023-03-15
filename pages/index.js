@@ -40,10 +40,10 @@ export default function Home({ allPostsData }) {
           excited to be a part of that change. Let's connect and build something
           amazing together!
         </p>
-        <p>
+        {/* <p>
           (This is a sample website - you’ll be building a site like this on{" "}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
+        </p> */}
       </section>
       {/* Add this <section> tag below the existing <section> tag */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
